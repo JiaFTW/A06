@@ -1,0 +1,33 @@
+header {
+	border-bottom: 3px solid #800000;
+	padding: 1.5em 0;
+	background-image: -moz-linear-gradient(
+	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	background-image: -o-linear-gradient(
+	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	background-image: linear-gradient(
+	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+}
+header h1 {
+	color: #800000;
+}
+header h2 {
+	font-style: italic;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #800000;
+}
+footer {
+	border-top: 3px solid #800000;
+	clear: both;
+}
+footer p {
+	padding: 1em 0;
+	text-align: center;
+}
